@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(img/fondo\ 1.jpg);
+}
+main{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 130px;
+    right: 40px;
+}
+#menu a:hover{
+    border-bottom: 1px solid tomato;
+    background-color: rgb(221, 75, 75);
+    color: whitesmoke;
+    border-radius: 500px;
+}
+p{
+    font-size: 50px;
+    padding: 30px;
+    font-family: "Cormorant Garamond", serif;
+}
+span{
+    font-size: 30px;
+}
+#menu{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+#menu a{
+    text-decoration: solid;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#rs{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    margin-top: 50px;
+}
+#rs a{
+    padding: 10px;
+}
+i{
+    padding: 10px;
+}
+
